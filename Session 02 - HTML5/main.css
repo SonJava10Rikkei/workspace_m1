@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+/* Phần đầu */
+header {
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+
+}
+
+#logo {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    float: left;
+}
+
+#timkiem {
+    background-color: blue;
+    width: 700px;
+    float: left;
+}
+
+#nutbam {
+    background-color: blue;
+    width: 300px;
+    float: right;
+}
+
+
+/* Thanh điều hướng */
+nav {
+    float: right;
+    width: 100%;
+    background-color: rgb(54, 255, 4);
+    height: 50px;
+}
+
+
+article {
+    float: left;
+    width: 85%;
+    background-color: rgb(255, 4, 255);
+    min-height: 400px;
+}
+
+aside {
+    float: left;
+    width: 15%;
+    background-color: rgb(255, 4, 109);
+    min-height: 400px;
+}
+
+footer {
+    background-color: rgba(128, 118, 122, 0.534);
+    min-height: 10px;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    float: left;
+
+}
+
+style="padding: 10px;"
