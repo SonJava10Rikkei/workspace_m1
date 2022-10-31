@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+   <div class="container">
+    <form action="/" method="get">
+        <label for="">FullName:</label>
+        <input type="text" name="name"> <br>
+
+        <label for="Gender">Gender:</label>
+        <input type="radio" value="male" name="Gender"> Nam
+        <input type="radio" value="female" name="Gender"> Nữ <br>
+
+        <label for="address">Địa Chỉ:</label>
+        <input type="text" name="address"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email"><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password"> <br>
+
+        <label for="education">Hệ đào tạo:
+            <select name="education" id="1">
+
+                <option value="thpt">THPT</option>
+                <option value="daihoc">Đại Học</option>
+            </select>
+        </label> <br>
+
+        <label for="note">Chú thích:
+        <textarea name="note" id="2" cols="30" rows="5">Chú thích ở đây</textarea><br>
+        </label>
+
+        <label for="interest">Sở thích thể thao:</label>
+        <input type="checkbox" name="bong da">Bóng đá
+        <input type="checkbox" name="cau long">Cầu lông
+        <input type="checkbox" name="ngu">Ngủ
+
+
+        </label>
+        <br>
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    </div>
+
+</body>
+
+</html>
