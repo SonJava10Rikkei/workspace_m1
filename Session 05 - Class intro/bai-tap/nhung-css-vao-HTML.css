@@ -1,0 +1,10 @@
+.o_orange {
+    background-color: rgba(248, 255, 145, 0.651);
+    border: 0px solid rgb(15, 13, 13);
+    width: 850px;
+    
+}
+.tip_font, cascading_font
+{
+    color: aqua;
+}

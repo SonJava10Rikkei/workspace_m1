@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Truyện kể Teyvat</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Style the header */
+      .header {
+        /* background-image: url(https://images6.alphacoders.com/112/1123014.jpg); */
+        object-fit: cover;
+        padding: 0px;
+        background-color: hsl(0, 0%, 95%);
+        padding: 0 px;
+        text-align: left;
+        outline-width: 0px;
+        outline-style: dashed;
+        outline-color: #96c4e2;
+        outline-offset: 0px;
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        padding: 20px;
+      }
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: 100%;
+      }
+      #parent2 {
+        position: relative;
+        width: 158px;
+        height: 187px;
+      }
+
+      #child2 {
+        position: absolute;
+        top: 72px;
+        right: 804px;
+
+        font-size: 40px;
+      }
+
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 300px;
+        /* Should be removed. Only for demonstration */
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Style the footer */
+      .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="all">
+      <video autoplay id="myVideo">
+        <source src="/media/video/GI.mp4.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+
+      <div class="header">
+        <div>
+          <img id="parent2" src="/media/img/a.png" alt="Logo" />
+          <h1 id="child2">LỤC ĐỊA TEYVAT</h1>
+        </div>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li>Video</li>
+            <li>Đã thích</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="column" style="background-color: #aaa">Column</div>
+        <div class="column" style="background-color: #bbb">Column</div>
+        <div class="column" style="background-color: #ccc">Column</div>
+      </div>
+
+      <div class="footer">
+        <p>Footer</p>
+      </div>
+    </div>
+  </body>
+</html>
